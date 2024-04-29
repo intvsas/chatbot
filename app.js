@@ -23,14 +23,7 @@ const flowTv = addKeyword(['1', 'siguiente']).addAnswer([
    
 
 ])
-.addAnswer(
-    [
-    '👉 *1* Volver al menú principal'
-    ],
-    null,
-    null,
-        [flowend]
-)
+
 
 //Servicio de internet
 
@@ -40,14 +33,7 @@ const flowreslento = addKeyword(['1', 'siguiente']).addAnswer([
    
 
 ])
-.addAnswer(
-    [
-    '👉 *1* Volver al menú principal'
-    ],
-    null,
-    null,
-        [flowend]
-)
+
 
 const flowresRojo = addKeyword(['1', 'siguiente']).addAnswer([
     
@@ -55,14 +41,7 @@ const flowresRojo = addKeyword(['1', 'siguiente']).addAnswer([
            
 
 ])
-.addAnswer(
-    [
-    '👉 *1* Volver al menú principal'
-    ],
-    null,
-    null,
-        [flowend]
-)
+
 
 const flowSecundario2 = addKeyword(['2', 'siguiente']).addAnswer([
     'Escribe el numero de la opción que requieras',
@@ -135,14 +114,6 @@ const flowMintic = addKeyword(['1', '1']).addAnswer(
     null,
     [flowSecundario]
 )
-.addAnswer(
-    [
-    '👉 *1* Volver al menú principal'
-    ],
-    null,
-    null,
-        [flowend]
-)
 
 
 
@@ -173,7 +144,7 @@ const flowTele = addKeyword(['3']).addAnswer(
 )
 
 //flujo principal de Bienvenida
-const flowPrincipal = addKeyword(['','1'])
+const flowPrincipal = addKeyword([''])
     .addAnswer('🙌 Hola, bienvenido a *INTV* \n¿En qué podemos ayudarte?')
     .addAnswer(
         [
